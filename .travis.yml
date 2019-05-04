@@ -1,5 +1,5 @@
 language: python
 notifications:
   email:
-  - poluidol.test@gmail.com
+    - poluidol.test@gmail.com
     on_failure: always
