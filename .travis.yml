@@ -1,5 +1,7 @@
 language: python
 notifications:
-  email:
-    - poluidol.test@gmail.com
-    on_failure: always
+ recipients:
+      - ogoltsov.i@phystech.edu
+      - ogoltsov.i@phystech.edu
+    on_success: never # default: change
+    on_failure: always # default: always
