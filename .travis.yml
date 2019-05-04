@@ -1,10 +1,12 @@
 language: python
 python:
   - "3.6"
-script: pytest
+script: echo "Hello World!"
 notifications:
   email:
     recipients:
       - ogoltsov.i@phystech.edu
     on_success: never # default: change
     on_failure: always # default: always
+install:
+  - pip install -r my_great_game/requirements.txt    
