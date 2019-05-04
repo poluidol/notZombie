@@ -1,9 +1,9 @@
 language: python
 python:
-  - "3.6"
+  "3.6"
 notifications:
   recipients:
-      - ogoltsov.i@phystech.edu
-      - ogoltsov.i@phystech.edu
+      ogoltsov.i@phystech.edu
+      ogoltsov.i@phystech.edu
     on_success: always
     on_failure: always
