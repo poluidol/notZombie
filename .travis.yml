@@ -6,7 +6,7 @@ notifications:
   email:
     recipients:
       - ogoltsov.i@phystech.edu
-    on_success: never # default: change
+    on_success: always # default: change
     on_failure: always # default: always
 install:
   - pip install -r my_great_game/requirements.txt    
