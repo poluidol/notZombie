@@ -1,1 +1,4 @@
 language: python
+notifications:
+  email:
+    on_failure: always
