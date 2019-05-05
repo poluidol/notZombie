@@ -1,7 +1,6 @@
 import pygame
-
-import utils
-from game_object import GameObject
+import src.utils as utils
+from src.game_object import GameObject
 
 
 class Enemy(GameObject):

@@ -1,10 +1,10 @@
 import pygame
 
-from game import Game
-import config
-import sprites
-from player import Player
-from brain import Brain
+from src.game import Game
+import src.config as config
+import src.sprites as sprites
+from src.player import Player
+from src.brain import Brain
 import random
 
 
@@ -28,7 +28,6 @@ class NotZombie(Game):
             if rnd < 30:
                 self.create_brain_high()
             self.timer = 0
-
 
     def create_player(self):
         player = Player(50, 350, 80, 110, 5)

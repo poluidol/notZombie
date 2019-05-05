@@ -1,8 +1,8 @@
 import pygame
-import sprites
+import src.sprites as sprites
 from collections import defaultdict
 
-from game_object import GameObject
+from src.game_object import GameObject
 
 
 class Player(GameObject):
